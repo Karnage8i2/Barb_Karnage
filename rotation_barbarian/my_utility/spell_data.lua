@@ -81,7 +81,7 @@ return {
         name = "Charge"
     },
     leap = {
-        spell_id = 199206,
+        spell_id = 196545,
         name = "Leap"
     },
     rupture = {
@@ -95,7 +95,7 @@ return {
         name = "Death Blow"
     },
     mighty_throw = {
-        spell_id = 208683,
+        spell_id = 1611316,
         name = "Mighty Throw"
     },
     
@@ -109,13 +109,13 @@ return {
         name = "Call of the Ancients"
     },
     iron_maelstorm = {
-        spell_id = 207895,
+        spell_id = 217175,
         name = "Iron Maelstrom"
     },
     
     -- Utility Skills
     steel_grasp = {
-        spell_id = 210670,
+        spell_id = 964631,
         name = "Steel Grasp"
     },
     ground_stomp = {
@@ -136,5 +136,23 @@ return {
     challenging_shout_alt = {
         spell_id = 211938,
         name = "Challenging Shout"
+    },
+    
+    -- Alternative spell IDs for skills that may have different versions
+    iron_maelstorm_alt = {
+        spell_id = 207895,
+        name = "Iron Maelstrom"
+    },
+    leap_alt = {
+        spell_id = 199206,
+        name = "Leap"
+    },
+    steel_grasp_alt = {
+        spell_id = 210670,
+        name = "Steel Grasp"
+    },
+    mighty_throw_alt = {
+        spell_id = 208683,
+        name = "Mighty Throw"
     },
 }

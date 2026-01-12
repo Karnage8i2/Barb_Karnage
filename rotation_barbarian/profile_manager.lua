@@ -27,6 +27,7 @@ local profile_menu_elements = {
 
 -- Available profiles
 local profile_options = {
+    "Default (All Skills)",
     "HOTA (Hammer of the Ancients)",
     "Earthquake",
     "Lunging Strike",
@@ -35,7 +36,7 @@ local profile_options = {
 }
 
 -- Current active profile
-local current_profile = "HOTA (Hammer of the Ancients)"
+local current_profile = "Default (All Skills)"
 
 --[[
 ═══════════════════════════════════════════════════════════════════════════════
@@ -44,6 +45,92 @@ local current_profile = "HOTA (Hammer of the Ancients)"
 ]]--
 
 local profiles = {
+    ["Default (All Skills)"] = {
+        name = "Default (All Skills)",
+        description = "All skills enabled for maximum flexibility",
+        
+        -- All available skills for this build
+        core_skills = {
+            "lunging_strike",
+            "whirl_wind",
+            "bash",
+            "frenzy",
+            "flay",
+            "hammer_of_ancients",
+            "upheaval",
+            "double_swing",
+            "rend",
+            "rallying_cry",
+            "challenging_shout",
+            "war_cry",
+            "iron_skin",
+            "ground_stomp",
+            "kick",
+            "charge",
+            "leap",
+            "rupture",
+            "death_blow",
+            "wrath_of_the_berserk",
+            "call_of_the_ancients",
+            "iron_maelstorm",
+            "steel_grasp",
+            "mighty_throw",
+        },
+        
+        -- Spell priority for rotation (lower = higher priority)
+        spell_priority = {
+            challenging_shout = 1,
+            war_cry = 2,
+            rallying_cry = 3,
+            iron_skin = 4,
+            wrath_of_the_berserk = 5,
+            call_of_the_ancients = 6,
+            steel_grasp = 7,
+            ground_stomp = 8,
+            charge = 9,
+            leap = 10,
+            mighty_throw = 11,
+            iron_maelstorm = 12,
+            hammer_of_ancients = 13,
+            upheaval = 14,
+            death_blow = 15,
+            whirl_wind = 16,
+            rend = 17,
+            double_swing = 18,
+            rupture = 19,
+            kick = 20,
+            lunging_strike = 21,
+            bash = 22,
+            frenzy = 23,
+            flay = 24,
+        },
+        
+        -- Boss rotation
+        boss_rotation = {
+            "Keep all defensive buffs active",
+            "Use ultimate skills on cooldown",
+            "Use any equipped core skills",
+            "Adapt to your preferred playstyle",
+        },
+        
+        -- AoE rotation
+        aoe_rotation = {
+            "Use crowd control skills (Steel Grasp, Ground Stomp)",
+            "Keep shouts active for damage reduction",
+            "Use area damage skills (Whirlwind, Upheaval)",
+            "Adapt to your preferred skills",
+        },
+        
+        -- Playstyle notes
+        playstyle_notes = {
+            "This profile enables ALL skills for maximum flexibility",
+            "Use the Equipped Skills menu to see what you currently have",
+            "Enable/disable individual skills as needed",
+            "Perfect for testing different skill combinations",
+            "No restrictions - play however you want!",
+        }
+    },
+    
     ["HOTA (Hammer of the Ancients)"] = {
         name = "HOTA (Hammer of the Ancients)",
         description = "Hammer-focused build with Bash stacking",
