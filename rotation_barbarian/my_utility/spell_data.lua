@@ -49,7 +49,7 @@ return {
         name = "Double Swing"
     },
     rend = {
-        spell_id = 208333,
+        spell_id = 214786,
         name = "Rend"
     },
     
@@ -85,7 +85,7 @@ return {
         name = "Leap"
     },
     rupture = {
-        spell_id = 208499,
+        spell_id = 215027,
         name = "Rupture"
     },
     
@@ -95,7 +95,7 @@ return {
         name = "Death Blow"
     },
     mighty_throw = {
-        spell_id = 208683,
+        spell_id = 1611316,
         name = "Mighty Throw"
     },
     
@@ -109,13 +109,13 @@ return {
         name = "Call of the Ancients"
     },
     iron_maelstorm = {
-        spell_id = 207895,
+        spell_id = 217175,
         name = "Iron Maelstrom"
     },
     
     -- Utility Skills
     steel_grasp = {
-        spell_id = 210670,
+        spell_id = 964631,
         name = "Steel Grasp"
     },
     ground_stomp = {
