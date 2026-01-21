@@ -1,0 +1,33 @@
+# Lua files
+*.luac
+luac.out
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*_backup
+
+# Log files
+*.log
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+
+# Build and test artifacts
+/tmp/
+.cache/
+
+# VS Code workspace settings (keep the workspace file but ignore local settings)
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
