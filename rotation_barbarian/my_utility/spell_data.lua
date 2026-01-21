@@ -23,11 +23,11 @@ return {
         name = "Lunging Strike"
     },
     frenzy = {
-        spell_id = 206432,
+        spell_id = 210919,
         name = "Frenzy"
     },
     flay = {
-        spell_id = 200787,
+        spell_id = 210431,
         name = "Flay"
     },
     
@@ -45,7 +45,7 @@ return {
         name = "Upheaval"
     },
     double_swing = {
-        spell_id = 203268,
+        spell_id = 208000,
         name = "Double Swing"
     },
     rend = {
@@ -59,7 +59,7 @@ return {
         name = "Rallying Cry"
     },
     challenging_shout = {
-        spell_id = 204450,
+        spell_id = 375484,
         name = "Challenging Shout"
     },
     war_cry = {
@@ -67,7 +67,7 @@ return {
         name = "War Cry"
     },
     iron_skin = {
-        spell_id = 201633,
+        spell_id = 512222,
         name = "Iron Skin"
     },
     
@@ -77,11 +77,11 @@ return {
         name = "Kick"
     },
     charge = {
-        spell_id = 203177,
+        spell_id = 204662,
         name = "Charge"
     },
     leap = {
-        spell_id = 199206,
+        spell_id = 196545,
         name = "Leap"
     },
     rupture = {
@@ -91,7 +91,7 @@ return {
     
     -- Weapon Mastery Skills
     death_blow = {
-        spell_id = 207827,
+        spell_id = 323105,
         name = "Death Blow"
     },
     mighty_throw = {
@@ -105,7 +105,7 @@ return {
         name = "Wrath of the Berserk"
     },
     call_of_the_ancients = {
-        spell_id = 204513,
+        spell_id = 309802,
         name = "Call of the Ancients"
     },
     iron_maelstorm = {
