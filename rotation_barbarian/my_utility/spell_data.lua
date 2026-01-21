@@ -63,7 +63,7 @@ return {
         name = "Challenging Shout"
     },
     war_cry = {
-        spell_id = 194096,
+        spell_id = 184600,
         name = "War Cry"
     },
     iron_skin = {
