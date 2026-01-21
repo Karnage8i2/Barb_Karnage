@@ -55,7 +55,7 @@ return {
     
     -- Defensive Skills
     rallying_cry = {
-        spell_id = 204662,
+        spell_id = 211938,
         name = "Rallying Cry"
     },
     challenging_shout = {
@@ -121,20 +121,5 @@ return {
     ground_stomp = {
         spell_id = 186358,
         name = "Ground Stomp"
-    },
-    
-    -- Additional spell IDs found from API detection
-    -- These are normal versions with different spell IDs
-    rallying_cry_alt = {
-        spell_id = 375484,
-        name = "Rallying Cry"
-    },
-    war_cry_alt = {
-        spell_id = 184600,
-        name = "War Cry"
-    },
-    challenging_shout_alt = {
-        spell_id = 211938,
-        name = "Challenging Shout"
     },
 }

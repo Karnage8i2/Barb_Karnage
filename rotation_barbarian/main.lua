@@ -51,12 +51,6 @@ local spells =
     iron_maelstorm          = require("spells/iron_maelstorm"),
     steel_grasp             = require("spells/steel_grasp"),
     mighty_throw            = require("spells/mighty_throw"),
-    
-    -- Alternative versions of skills detected from API
-    -- These use the same spell modules as the normal versions
-    rallying_cry_alt = require("spells/rallying_cry"),
-    war_cry_alt = require("spells/war_cry"),
-    challenging_shout_alt = require("spells/challenging_shout"),
 }
 
 local spell_options = {
@@ -418,9 +412,9 @@ on_update(function ()
             success = spell_module.logics(entity_list)
         elseif spell_name == "steel_grasp" then
             success = spell_module.logics(entity_list, target_selector_data, best_target)
-        elseif spell_name == "challenging_shout" or spell_name == "challenging_shout_alt" or 
-               spell_name == "war_cry" or spell_name == "war_cry_alt" or 
-               spell_name == "rallying_cry" or spell_name == "rallying_cry_alt" or 
+        elseif spell_name == "challenging_shout" or 
+               spell_name == "war_cry" or 
+               spell_name == "rallying_cry" or 
                spell_name == "iron_skin" or spell_name == "wrath_of_the_berserk" or spell_name == "call_of_the_ancients" then
             success = spell_module.logics()
         else
